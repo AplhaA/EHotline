@@ -10,25 +10,9 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NO"
-        tools:layout_editor_absoluteX="251dp"
-        tools:layout_editor_absoluteY="523dp"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="YES"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="523dp" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="51dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:text="button1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
